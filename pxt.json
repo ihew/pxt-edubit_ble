@@ -1,7 +1,7 @@
 {
-    "name": "pxt-edubit",
+    "name": "pxt-edubit-ble",
     "version": "1.14.0",
-    "description": "MakeCode Package for Cytron EDU:BIT",
+    "description": "MakeCode Package for Cytron EDU:BIT with BLE",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -14,7 +14,6 @@
         "potentio_bit.ts",
         "ir_bit.ts",
         "sound_bit.ts",
-        "rgb_bit.ts",
         "power.ts",
 		"_locales/de/pxt-edubit-strings.json",
 		"_locales/de/pxt-edubit-jsdoc-strings.json",
