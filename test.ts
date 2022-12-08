@@ -79,38 +79,7 @@ basic.forever(function () {
         led.unplot(3, 3);
     }
 
-
-
-    // Show red color on all RGB pixels.
-    edubitRgbBit.showColor(0xff0000)
-    basic.pause(1000)
-
-    // Show different color on each RGB pixels.
-    edubitRgbBit.setPixelColor(0, 0xff0000)
-    edubitRgbBit.setPixelColor(1, 0x00ff00)
-    edubitRgbBit.setPixelColor(2, 0x0000ff)
-    edubitRgbBit.setPixelColor(3, 0xffff00)
-    basic.pause(1000)
-
-    // Change the brightness to 100% and show rainbow color.
-    edubitRgbBit.setBrightness(255)
-    edubitRgbBit.showRainbow()
-    basic.pause(1000)
-
-    // Rotate the RGB pixels color forward 4 times.
-    for (let index = 0; index < 4; index++) {
-        edubitRgbBit.rotatePixels(1)
-        basic.pause(1000)
-    }
-
-    // Shift the RGB pixels color backward 1 time.
-    edubitRgbBit.shiftPixels(-1)
-    basic.pause(1000)
-
-    // Clear all RGB pixels.
-    edubitRgbBit.clear()
-
-
+    // RGB-bit / NeoPixel code removed
 
     // Turn on yellow LED on Traffic Light Bit.
     edubitTrafficLightBit.setLed(LedColor.Red, 0)
