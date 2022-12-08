@@ -14,8 +14,11 @@ Visit [EDU:BIT Resource Hub](https://sites.google.com/cytron.io/edubit-resource-
   
   
 ## Adding the Extension in MakeCode Editor  
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project** and give your project a meaningful name
+
+To use a BLE extension with this modified **EDU:BIT** extension, you should add the BLE extension first. MakeCode might then show a conflict with the Radio blocks which will need to be removed. Once you confirmed the removal of the Radio blocks and the installation of the BLE extension you can then install this **EDU:BIT** extension on top of the BLE extension without a conflict being raised.
+
+To add this extension
+
 * click on **Extensions** under the gearwheel :gear: menu
 * search for "**https://github.com/ihew/pxt-edubit_ble**" 
 * click on the zoombit card to install the extension
