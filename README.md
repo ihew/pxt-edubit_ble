@@ -4,8 +4,7 @@ This code provides the driver for [**EDU:BIT** Training & Project Kit for micro:
 
 To use a BLE extension with this modified **EDU:BIT** extension, you should add the BLE extension first. MakeCode might then show a conflict with the Radio blocks which will need to be removed. Once you confirmed the removal of the Radio blocks and the installation of the BLE extension you can then install this **EDU:BIT** extension on top of the BLE extension without a conflict being raised.
 
-
-  
+##**EDU:BIT**  
 **EDU:BIT** is specially designed to encourage kids to explore STEAM and learn coding. It comes with a booklet covering 10+1 hands-on coding lessons, which have been creatively structured to introduce programming basics in a fun and engaging manner. Each chapter features a classic childhood game such as Rock Paper Scissors, Snakes and Ladders, Twister, and Simon Says. Follow the step-by-step guide to build the games and then have fun playing with your friends!  
   
 ![EDU:BIT](https://raw.githubusercontent.com/CytronTechnologies/pxt-edubit/master/icon.png)
