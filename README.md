@@ -122,56 +122,8 @@ edubitIrBit.onIrSensorEvent(IrEventType.Rise, function () {
 ```
   
 ## RGB Bit
-Clear all RGB pixels.
-  
-```blocks
-edubitRgbBit.clear()
-```
-  
-Show rainbow color on all RGB pixels and change the brightness to maximum.
-  
-```blocks
-edubitRgbBit.showRainbow()
-edubitRgbBit.setBrightness(255)
-```
-  
-Show color green on all RGB pixels and change the color one by one to red.
-  
-```blocks
-edubitRgbBit.showColor(0x00ff00)
-basic.pause(1000)
-edubitRgbBit.setPixelColor(0, 0xff0000)
-basic.pause(500)
-edubitRgbBit.setPixelColor(1, 0xff0000)
-basic.pause(500)
-edubitRgbBit.setPixelColor(2, 0xff0000)
-basic.pause(500)
-edubitRgbBit.setPixelColor(3, 0xff0000)
-```
-  
-Show rainbow color and shift it out one by one.
-  
-```blocks
-edubitRgbBit.showRainbow()
-basic.pause(500)
-edubitRgbBit.shiftPixels(1)
-basic.pause(500)
-edubitRgbBit.shiftPixels(1)
-basic.pause(500)
-edubitRgbBit.shiftPixels(1)
-basic.pause(500)
-edubitRgbBit.shiftPixels(1)
-```
-  
-Show rainbow color and rotate it.
-  
-```blocks
-edubitRgbBit.showRainbow()
-basic.forever(function () {
-    edubitRgbBit.rotatePixels(1)
-    basic.pause(500)
-})
-```
+Support for Neopixels has been removed in this fork to allow for Bluetooth to be enabled in parallel
+
   
 ## Traffic Light Bit
 Blink the yellow LED.
@@ -251,7 +203,7 @@ MIT
 * for PXT/microbit  
   
   
-> Open this page at [https://cytrontechnologies.github.io/pxt-edubit/](https://cytrontechnologies.github.io/pxt-edubit/)  
+> Open the original page at [https://cytrontechnologies.github.io/pxt-edubit/](https://cytrontechnologies.github.io/pxt-edubit/)  
   
   
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>  
