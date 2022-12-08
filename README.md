@@ -1,6 +1,6 @@
-# EDU:BIT Extension for Microsoft MakeCode
+# EDU:BIT Extension for Microsoft MakeCode to use with BLE extensions
 
-This code provides the driver for [**EDU:BIT** Training & Project Kit for micro:bit](https://www.cytron.io/p-edubit). EDU:BIT works with **micro:bit V1 & V2**.
+This code provides the driver for [**EDU:BIT** Training & Project Kit for micro:bit](https://www.cytron.io/p-edubit), except for Neopixel examples. EDU:BIT works with **micro:bit V1 & V2**.
   
 **EDU:BIT** is specially designed to encourage kids to explore STEAM and learn coding. It comes with a booklet covering 10+1 hands-on coding lessons, which have been creatively structured to introduce programming basics in a fun and engaging manner. Each chapter features a classic childhood game such as Rock Paper Scissors, Snakes and Ladders, Twister, and Simon Says. Follow the step-by-step guide to build the games and then have fun playing with your friends!  
   
@@ -14,7 +14,7 @@ Visit [EDU:BIT Resource Hub](https://sites.google.com/cytron.io/edubit-resource-
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **New Project** and give your project a meaningful name
 * click on **Extensions** under the gearwheel :gear: menu
-* search for '**edubit**' or "**https://github.com/cytrontechnologies/pxt-edubit**" 
+* search for "**https://github.com/ihew/pxt-edubit_ble**" 
 * click on the zoombit card to install the extension
   
   
