@@ -1,4 +1,4 @@
-# EDU:BIT Extension for Microsoft MakeCode to use with BLE extensions
+# EDU:BIT Extension for Microsoft MakeCode to be used with BLE extensions
 
 This code provides the driver for [**EDU:BIT** Training & Project Kit for micro:bit](https://www.cytron.io/p-edubit), except for Neopixel examples. EDU:BIT works with **micro:bit V1 & V2**.
 
